@@ -7,5 +7,33 @@ nav {
 
 .nav-link {
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: #333;
+}
+
+/* Navbar styles */
+.navbar-nav .nav-link {
+  white-space: nowrap; /* Prevent text wrapping */
+  padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Add space between nav items */
+.nav-item {
+  margin: 0 0.5rem;
+}
+
+/* Ensure proper hamburger visibility and alignment */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  width: 24px;
+  height: 24px;
 }
