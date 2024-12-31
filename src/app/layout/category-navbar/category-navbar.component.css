@@ -1,6 +1,5 @@
 /* Navbar Styling */
 nav {
-  margin-top: 100px;
   height: 60px;
   background-color: var(--navbar-footer-color);
   border-top: 3px solid var(--primary-color);
