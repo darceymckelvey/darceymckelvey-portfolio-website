@@ -5,6 +5,7 @@ import { CategoryNavbarComponent } from './layout/category-navbar/category-navba
 import { FooterComponent } from './layout/footer/footer.component';
 import { PostCardComponent } from './layout/post-card/post-card.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { SubscriptionFormComponent } from './subscription-form/subscription-form
     CategoryNavbarComponent,
     FooterComponent,
     SubscriptionFormComponent,
+    CommonModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
